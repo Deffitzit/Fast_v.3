@@ -1,0 +1,568 @@
+@import url('https://fonts.cdnfonts.com/css/futura-pt');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 720px) {
+
+.conteiner {
+ display: flex;
+ flex-direction: column;
+}
+
+.header {
+    box-shadow: 0px -30px 90px blue;
+    height: 16.5vh;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: #040412;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {max-height: 11vh;}
+
+.menues {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    display: flex;
+    font-family: 'Futura PT', sans-serif;
+    margin: 0 0 0 6%;
+    color: #c2c2c2;
+    font-size: calc(3px + 1vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.login {
+    display: flex;
+    font-family: 'Futura PT', sans-serif;
+    color: #c2c2c2;
+    font-size: calc(1px + 1.5vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 5vh;
+    width: 7vw;
+    border: 0.5vh #3672b1 double;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 100vw;
+    margin-top: 16.5vh;
+    background-color: rgb(12 10 24);
+    display: flex;
+    flex-direction: row;
+}
+
+.filtr {
+    margin: 60px 0 60px 10px;
+    box-shadow: 0px 0px 80px blue;
+    padding: 20px 20px 0 20px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border: 2px #2600bd solid;
+}
+
+.filterwindow {
+    display: flex;
+    flex-direction: column;
+}
+.price {font-family: 'Futura PT', sans-serif;font-size: 20px;margin: 0 0 8% 5%;color: #c2c2c2;}
+
+.max {margin-top: 5%;display: flex;flex-direction: row;justify-content: space-around;flex-wrap: wrap;}
+
+.maxtext {
+    display: flex;
+    font-family: 'Futura PT', sans-serif;
+    margin: 0px 0 0 0px;
+    color: #c2c2c2;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+}
+
+.maxt {   
+font-size: 17px;  
+color: #c2c2c2;   
+max-width: 50%;   
+background-color: #25263a;
+}
+
+.min {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.mintext {
+    display: flex;
+    font-family: 'Futura PT', sans-serif;
+    margin: 0px 0 0 0px;
+    color: #c2c2c2;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mint {  
+font-size: 17px;   
+color: #c2c2c2;  
+background-color: #25263a;    
+max-width: 50%;
+}
+
+.form {margin: 20% 0 0 5%;}
+
+.select{  
+    height: 35px;    
+    background-color: #25263a;
+    width: 95%;
+    color: #c2c2c2;
+}
+
+.kal {
+    margin: 20% 0 0 0;
+}
+
+.date {
+    margin-left: 5%;
+    height: 35px;
+    width: 90%;
+    color: #c2c2c2;
+    background-color: #25263a;
+}
+
+.close {
+    font-family: 'Futura PT', sans-serif;
+}
+
+.market {
+    grid-column-gap: 3%;
+    grid-row-gap: 20px;
+    margin: 60px 6%;
+    width: 68%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(423px, 0fr));
+    justify-items: start;
+}
+
+.marktext {
+    color: #c2c2c2;
+}
+
+.mark {
+    display: flex;
+    box-shadow: 0px 0px 80px blue;
+    padding: 10px;
+    width: 400px;
+    height: 380px;
+    border: 2px #2600bd solid;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upphoto {
+    width: 90%;
+    height: 80%;
+}
+
+.photo {
+    width: 100%;
+}
+
+
+.but {
+    color: #c2c2c2;
+    height: 10%;
+    width: 40%;
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(12 10 24);
+    border: 5px rgb(6 5 9) outset;
+}
+
+.but:hover {
+    height: 10%;
+    width: 40%;
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(19, 16, 36);
+    border: 5px rgb(6 5 9) outset;
+}
+
+.but:active {
+    height: 10%;
+    width: 40%;
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(19, 16, 36);
+    border: 5px rgb(6 5 9) intset;
+}
+
+.footer {
+    box-shadow: 0px 30px 90px blue;
+    height: 20.5vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color: #040412;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.num {
+    display: flex;
+    font-family: 'Futura PT', sans-serif;
+    margin: 0px 0 0 0px;
+    color: #c2c2c2;
+    font-size: calc(6px + 1vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mail {
+    display: flex;
+    font-family: 'Futura PT', sans-serif;
+    margin: 0px 0 0 0px;
+    color: #4e6088;
+    font-size: calc(4px + 1vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+}
+
+@media screen and (min-width: 310px) and (max-width: 719px) {
+    
+    .conteiner {
+     display: flex;
+     flex-direction: column;
+    }
+    
+    .header {
+        box-shadow: 0px -30px 90px blue;
+        height: 45.5vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        background-color: #040412;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .logo {max-height: 11vh;}
+    
+    .menues {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .menu {
+        display: flex;
+        font-family: 'Futura PT', sans-serif;
+        /* margin: 0 0 0 6%; */
+        color: #c2c2c2;
+        font-size: calc(8px + 1vw);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    .login {
+        display: flex;
+        font-family: 'Futura PT', sans-serif;
+        color: #c2c2c2;
+        font-size: calc(1px + 1.5vw);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        height: 2vh;
+        width: 15vw;
+        border: 0.5vh #3672b1 double;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main {
+        width: 100vw;
+        background-color: rgb(12 10 24);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .filtr {
+        margin: 60px 0 60px 0;
+        box-shadow: 0px 0px 80px blue;
+        padding: 20px 0;
+        width: 90%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        border: 2px #2600bd solid;
+        justify-content: center;
+    }
+    
+    .filterwindow {
+        margin: 10px;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .price {
+    display: none;
+    font-family: 'Futura PT', sans-serif;
+    font-size: 16px;
+    color: #c2c2c2;
+    }
+    
+    .max {width: 50%;display: flex;flex-direction: column;justify-content: space-evenly;flex-wrap: nowrap;}
+    
+    .maxtext {
+        display: flex;
+        font-family: 'Futura PT', sans-serif;
+        margin: 0px 0 0 0px;
+        color: #c2c2c2;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        align-items: center;
+    }
+    
+    .maxt {
+    font-size: 17px;
+    color: #c2c2c2;
+    height: 24%;
+    max-width: 60%;
+    background-color: #25263a;
+    }
+    
+    .min {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+    
+    .mintext {
+        display: flex;
+        font-family: 'Futura PT', sans-serif;
+        margin: 0px 0 0 0px;
+        color: #c2c2c2;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        align-items: center;
+    }
+    
+    .mint {
+    font-size: 17px;
+    color: #c2c2c2;
+    background-color: #25263a;
+    height: 25%;
+    max-width: 60%;
+    }
+    
+    .form {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+    
+    .select{
+        font-size: 8px;
+        height: 35px;
+        background-color: #25263a;
+        color: #c2c2c2;
+    }
+    
+    .kal {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    }
+    
+    .date {
+        font-size: 14px;
+        width: 191px;
+        height: 35px;
+        color: #c2c2c2;
+        background-color: #25263a;
+    }
+    
+    .close {
+        font-family: 'Futura PT', sans-serif;
+    }
+    
+    .market {
+        grid-column-gap: 3%;
+        grid-row-gap: 20px;
+        margin: 30px 0;
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 0fr));
+        justify-items: start;
+    }
+    
+    .marktext {
+        color: #c2c2c2;
+    }
+    
+    .mark {
+        display: flex;
+        box-shadow: 0px 0px 80px blue;
+        padding: 10px;
+        width: 300px;
+        height: 380px;
+        border: 2px #2600bd solid;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .photo {
+        width: 95%;
+    }
+    
+    .footer {
+        box-shadow: 0px 30px 90px blue;
+        height: 45.5vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        background-color: #040412;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .num {
+        display: flex;
+        font-family: 'Futura PT', sans-serif;
+        margin: 0px 0 0 0px;
+        color: #c2c2c2;
+        font-size: calc(22px + 1vw);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .mail {
+        display: flex;
+        font-family: 'Futura PT', sans-serif;
+        margin: 0px 0 0 0px;
+        color: #4e6088;
+        font-size: calc(17px + 1vw);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    }
+
+    /*////////////////////////////////////*/
+
+@media screen and (min-width: 720px) {
+    .mmain {
+        width: 100vw;
+        padding-top: 16.5vh;
+        background-color: rgb(12 10 24);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .left {
+        margin-top: 4%;
+        width: 45%;
+        height: 100%;
+    }
+
+    .onbut {
+        display: flex;
+        flex-direction: row;
+    }
+
+.mbut {
+    color: #c2c2c2;
+    height: 0%;
+    width: 50%;
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(12 10 24);
+    border: 5px rgb(6 5 9) outset;
+}
+
+.mbut:hover {
+    height: 10%;
+    width: 40%;
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(19, 16, 36);
+    border: 5px rgb(6 5 9) outset;
+}
+
+    .right {
+        width: 45%;
+        height: 100%;
+    }
+
+    .mphoto {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 310px) and (max-width: 719px) {
+
+}
